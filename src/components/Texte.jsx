@@ -17,6 +17,7 @@ render(){
     return(
         <div> 
             <p> bien </p>
+            <h1> fadi </h1>
             <input type="text" value={this.state.value} onChange={this.changer} />
             <p> vous avez saisir:{this.state.text}</p>
 
