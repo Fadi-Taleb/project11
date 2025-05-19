@@ -16,6 +16,7 @@ changer=(e)=>{
 render(){
     return(
         <div> 
+            <p> bien </p>
             <input type="text" value={this.state.value} onChange={this.changer} />
             <p> vous avez saisir:{this.state.text}</p>
 
